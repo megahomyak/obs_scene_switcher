@@ -11,7 +11,7 @@ this is a personal tool, there are a few considerations:
 * It does not account for any changes in scenes list after the launch
 * It does not account for sudden disconnects from OBS
 * It does not allow for easy customization, you'll have to edit the source code
-* It is not guaranteed to work anywhere, but was successfully used on Windows 10
+* It is not guaranteed to work anywhere, but was successfully used on Windows 10 with Python 3.8.5
 * It is up to the user to run this program in the background
 
 # How?
