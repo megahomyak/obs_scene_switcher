@@ -80,7 +80,8 @@ class TaskBarIcon(wx.adv.TaskBarIcon):
 
 class App(wx.App):
     def OnInit(self):
-        self.tskic = TaskBarIcon()
+        self.SetTopWindow(wx.Frame(None, -1))
+        TaskBarIcon()
         return True
 
 
