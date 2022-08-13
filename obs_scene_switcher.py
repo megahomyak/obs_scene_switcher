@@ -78,9 +78,6 @@ class TaskBarIcon(wx.adv.TaskBarIcon):
         self.SetIcon(icon)
 
 
-# SetCurrentScene
-
-
 class App(wx.App):
     def OnInit(self):
         self.tskic = TaskBarIcon()
